@@ -1,5 +1,5 @@
 class ProfileImage {
-    constructor(text = "NN", textColor = "#000000", backgroungColor = "#47cf73", font = "sans-serif", fontSize = 40) {
+    constructor(text = "NN", textColor = "#ffffff", backgroungColor = "#1081c1", font = "sans-serif", fontSize = 40) {
         this.text = text;
         this.textColor = textColor;
         this.backgroungColor = backgroungColor;
@@ -7,6 +7,8 @@ class ProfileImage {
         this.fontSize = fontSize;
     }
     svg(goodColor = false){
+        if(goodColor)
+            this.textColor = "#ffffff";
         return `<svg viewBox='0 0 100 100' width='100' height='100' style='background-color:${(!goodColor ? this.backgroundColor : this.#getColor(this.text))}'><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle' text-anchor='middle'>${this.text}</text></svg>`;
     }
     png(goodColor = false){
