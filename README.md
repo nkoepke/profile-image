@@ -94,4 +94,4 @@ would look like this if used as "src":
 ![image](example.png)
 
 ![image](https://raw.githubusercontent.com/nkoepke/ProfileImage/main/example.svg)
-<img src="[https://raw.github.com/potherca-blog/StackOverflow/master/question.13808020.include-an-svg-hosted-on-github-in-markdown/controllers_brief.svg](https://raw.githubusercontent.com/nkoepke/ProfileImage/main/example.svg)">
+<img src="https://raw.githubusercontent.com/nkoepke/ProfileImage/main/example.svg">
