@@ -84,4 +84,4 @@ return x.png(true);
 
 would look like this if used as "src":
 
-![image]()
+![image](examples/example.png)
