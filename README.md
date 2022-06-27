@@ -1,29 +1,29 @@
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![Generic badge](https://img.shields.io/badge/Version-0.0.1-status.svg)](https://shields.io/)
 # Profile-Image
-This JavaScript class generates a placeholder image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
+This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
 
 ### class ProfileImage (text, textColor, backgroundColor, font, fontSize)
 
-#### text (string)
+#### text `string`
 
-* A string of Characters. We recommend no more than 2 characters for this. (default "NN")
+* A string of Characters. We recommend no more than 2 characters for this. `default: "NN"`
 
-#### textColor (string)
+#### textColor `string`
 
-* Sets the text color. Any browser supported color value can be used. (default "#ffffff")
+* Sets the text color. Any browser supported color value can be used. `default: "#ffffff"`
 
-#### backgroundColor (string):
+#### backgroundColor `string`
 
-* Aets the background color. Any browser supported color value can be used. (default: "#000000")
+* Aets the background color. Any browser supported color value can be used. `default: "#000000"`
 
-#### font (string)
+#### font `string`
 
-* Sets the font family. (default: "Arial")
+* Sets the font family. `default: "Arial"`
 
-#### fontSize (number)
+#### fontSize `number`
 
-* Sets the font size of the text. (default: 40)
+* Sets the font size of the text. `default: 40`
 
 ### Methods
 
