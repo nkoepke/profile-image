@@ -13,7 +13,7 @@ This JavaScript class generates a placeholder image as SVG or PNG. You should us
 
 * Sets the text color. Any browser supported color value can be used. (default "#ffffff")
 
-#### backgroungColor (string):
+#### backgroundColor (string):
 
 * Aets the background color. Any browser supported color value can be used. (default: "#000000")
 
