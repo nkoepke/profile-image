@@ -3,7 +3,7 @@
 # Profile-Image
 This JavaScript class generates a placeholder image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
 
-### class ProfileImage (text, [[[[textColor], backgroungColor], font], fontSize])
+### class ProfileImage (text, [[[[textColor], backgroundColor], font], fontSize])
 
 #### text (string)
 
