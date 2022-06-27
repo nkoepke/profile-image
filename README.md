@@ -3,7 +3,7 @@
 # Profile-Image
 This JavaScript class generates a placeholder image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
 
-### class ProfileImage (text, [[[[textColor], backgroundColor], font], fontSize])
+### class ProfileImage (text, textColor, backgroundColor, font, fontSize)
 
 #### text (string)
 
@@ -19,7 +19,7 @@ This JavaScript class generates a placeholder image as SVG or PNG. You should us
 
 #### font (string)
 
-* Sets the font family. (default: "sans-serif")
+* Sets the font family. (default: "Arial")
 
 #### fontSize (number)
 
@@ -27,27 +27,31 @@ This JavaScript class generates a placeholder image as SVG or PNG. You should us
 
 ### Methods
 
-#### svg([boolen])
+#### svg()
 
-* Returns a String containing a SVG with the set parameters. If the optional boolean parameter is true, then the so called "Good-Color"-mechanism sets a background color depending on the text parameter in the constructor. Default `false`
+* Returns a String containing a SVG with the set parameters.
 
-#### png([boolen])
+#### png()
 
-* Returns a String containing a base64 encoded PNG with the set parameters. If the optional boolean parameter is true, then the so called "Good-Color"-mechanism sets a background color depending on the text parameter in the constructor. Default `false`
+* Returns a String containing a base64 encoded PNG with the set parameters.
+
+#### previewInConsole()
+
+* Logs a color preview in the console.
 
 # Usage
 
 Include the script in your HTML.
 
 ```html
-<script language="javascript" type="text/javascript" src="path/to/file/profile-image.js"></script>
+<script language="javascript" type="text/javascript" src="/path/to/file/profile-image.js"></script>
 ```
 
 ### SVG
 
 ```js
-var x = new ProfileImage("MM");
-console.log(x.svg(true));
+var image = new ProfileImage("MM");
+image.svg();
 ```
 
 Returns
@@ -63,8 +67,8 @@ as a string.
 ### PNG
 
 ```js
-var x = new ProfileImage("MM");
-console.log(x.png(true));
+var image = new ProfileImage("MM");
+image.png();
 ```
 
 Returns base64 encoded PNG as string.
@@ -75,11 +79,11 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAVAklEQVR4Xu
 
 # Example
 
-The result for 
+The result for
 
 ```javascript
-var x = new ProfileImage("MM");
-return x.png(true);
+var image = new ProfileImage("NK", "white", "#1f6feb", "Arial", 40);
+var src = x.png();
 ```
 
 would look like this if used as "src":
