@@ -84,14 +84,8 @@ The result for
 ```javascript
 var image = new ProfileImage("NK", "white", "#1f6feb", "Arial", 40);
 var src = image.png();
-// ...
-var svg = image.svg();
-// ...
 ```
 
 would look like this if used as "src":
 
 ![image](example.png)
-
-![image](https://raw.githubusercontent.com/nkoepke/ProfileImage/main/example.svg)
-<img src="https://raw.githubusercontent.com/nkoepke/ProfileImage/main/example.svg">
