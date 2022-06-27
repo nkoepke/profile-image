@@ -1,8 +1,8 @@
 class ProfileImage {
-    constructor(text = "NN", textColor = "#ffffff", backgroungColor = "#1081c1", font = "sans-serif", fontSize = 40) {
+    constructor(text = "NN", textColor = "#ffffff", backgroundColor = "#1081c1", font = "sans-serif", fontSize = 40) {
         this.text = text;
         this.textColor = textColor;
-        this.backgroungColor = backgroungColor;
+        this.backgroundColor = backgroundColor;
         this.font = font;
         this.fontSize = fontSize;
     }
