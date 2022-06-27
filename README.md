@@ -40,7 +40,7 @@ This JavaScript class generates a placeholder image as SVG or PNG. You should us
 Include the script in your HTML.
 
 ```html
-<script src="path/to/file/profile-image.js></script>
+<script language="javascript" type="text/javascript" src="path/to/file/profile-image.js"></script>
 ```
 
 ### SVG
