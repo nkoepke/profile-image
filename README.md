@@ -88,4 +88,4 @@ var src = x.png();
 
 would look like this if used as "src":
 
-![image](examples/example.png)
+![image](example.png)
