@@ -26,20 +26,4 @@ class ProfileImage {
     previewInConsole(){
         console.log(`%c ${this.text} `, `background: ${this.backgroundColor}; color: ${this.textColor}`);
     }
-    #getArbitrary(seed, min, max) {
-        return Math.floor(this.#hashFnv32a(seed, false, 7)/10000000000 * (max - min) + min);
-    };
-    #hashFnv32a(str, asString, seed) {
-        var i, l, hval = (seed === undefined) ? 0x811c9dc5 : seed;
-        for (i = 0, l = str.length; i < l; i++) {
-            hval ^= str.charCodeAt(i);
-            hval += (hval << 1) + (hval << 4) + (hval << 7) + (hval << 8) + (hval << 24);
-        }
-        if(asString)
-            return ("0000000" + (hval >>> 0).toString(16)).substr(-8);
-        return hval >>> 0;
-    };
-    #getColor(str){
-        return "hsl(" + this.#getArbitrary(str,0,360) + "," + this.#getArbitrary(str,60,100) + "%," + this.#getArbitrary(str,40,60) + "%)";
-    };
 }
