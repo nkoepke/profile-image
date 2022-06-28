@@ -7,7 +7,7 @@ class ProfileImage {
         this.fontSize = fontSize;
     }
     svg(){
-        return `<svg viewBox='0 0 100 100' width='100' height='100' style='background-color:${this.backgroundColor}; font-weight: bold;'><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle' text-anchor='middle'>${this.text}</text></svg>`;
+        return `<svg viewBox='0 0 100 100' width='100' height='100' style='background-color:${this.backgroundColor}; font-weight: bold;'><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle'>${this.text}</text></svg>`;
     }
     png(){
         let canvas = document.createElement("canvas");
