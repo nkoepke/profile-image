@@ -2,7 +2,7 @@ class ProfileImage {
 	constructor(name, options = {}) {
 		this.name = name;
 		this.textColor = options.textColor || "#ffffff";
-		this.backgroundColor = options.backgroundColor || "#1081c1";
+		this.backgroundColor = options.backgroundColor || "#1f6feb";
 		this.font = options.font || "Arial";
 		this.fontSize = options.fontSize || 40;
 		this.fontWeight = options.fontWeight || "bold";
