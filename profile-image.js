@@ -5,7 +5,7 @@ class ProfileImage {
 		this.backgroundColor = options.backgroundColor || "#1f6feb";
 		this.font = options.font || "Arial";
 		this.fontSize = options.fontSize || 40;
-		this.fontWeight = options.fontWeight || "bold";
+		this.fontWeight = options.fontWeight || "normal";
 	}
 	svg() { // returns svg as string
 		return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: ${this.fontWeight};'><rect width='100' height='100' x='0' y='0' fill='${this.backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle'>${this.#shorName()}</text></svg>`;
