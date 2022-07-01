@@ -7,7 +7,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 
 #### name `string`
 
-* A string of Characters. We recommend no more than 2 characters for this. `default: "NN"`
+* A string of Characters. We recommend no more than 2 characters for this.
 
 #### options.textColor `string`
 
