@@ -62,6 +62,7 @@ returns
 
 ```xml
 <svg viewBox='0 0 100 100' width='100' height='100' style='background-color:#1f6feb'>
+  <rect width='100' height='100' x='0' y='0' fill='#1f6feb'>
   <text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-weight='bold' font-family='sans-serif' font-size='40' fill='#ffffff' dominant-baseline='middle' text-anchor='middle'>MM</text>
 </svg>
 ```
