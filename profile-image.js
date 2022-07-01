@@ -8,7 +8,7 @@ class ProfileImage {
 		this.fontWeight = options.fontWeight || "bold";
 	}
 	svg() { // returns svg as string
-		return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='background-color:${this.backgroundColor}; font-weight: ${this.fontWeight};'><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle'>${this.#shorName()}</text></svg>`;
+		return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: ${this.fontWeight};'><rect width='100' height='100' x="0" y='0' fill='${this.backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle'>${this.#shorName()}</text></svg>`;
 	}
 	png() { // returns png as base64
 		let canvas = document.createElement("canvas");
