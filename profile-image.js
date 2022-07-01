@@ -1,5 +1,5 @@
 class ProfileImage {
-	constructor(name, options) {
+	constructor(name, options = {}) {
 		this.name = name;
 		this.textColor = options.textColor || "#ffffff";
 		this.backgroundColor = options.backgroundColor || "#1081c1";
