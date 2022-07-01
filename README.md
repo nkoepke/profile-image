@@ -97,3 +97,5 @@ var src = image.png();
 would look like this when used as "src":
 
 ![image](example.png)
+
+(There is also a PHP class for SVG only!)
