@@ -63,7 +63,7 @@ returns
 ```xml
 <svg viewBox='0 0 100 100' width='100' height='100' style='background-color:#1f6feb'>
   <rect width='100' height='100' x='0' y='0' fill='#1f6feb'></rect>
-  <text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-weight='bold' font-family='sans-serif' font-size='40' fill='#ffffff' dominant-baseline='middle' text-anchor='middle'>MM</text>
+  <text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-weight='bold' font-family='Arial' font-size='40' fill='#ffffff' dominant-baseline='middle' text-anchor='middle'>MM</text>
 </svg>
 ```
 
@@ -72,7 +72,7 @@ as a string.
 ### PNG
 
 ```js
-var image = new ProfileImage("Max Miller", {backgroundColor: "#45c421", textColor: "black"});
+var image = new ProfileImage("Max Miller", {backgroundColor: "#45c421", textColor: "black", fontWeight: "bold"});
 image.png();
 ```
 
@@ -87,7 +87,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAVAklEQVR4Xu
 The result for
 
 ```javascript
-var image = new ProfileImage("Nick Keaton");
+var image = new ProfileImage("Nick Keaton", {fontWeight: "bold"});
 var src = image.png();
 ```
 
