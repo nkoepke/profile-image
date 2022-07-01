@@ -1,7 +1,7 @@
+![profile-image](https://github.com/nkoepke/profile-image/blob/main/title_image_1.png?raw=true)
+
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![Generic badge](https://img.shields.io/badge/Version-0.0.1-status.svg)](https://shields.io/)
-
-![profile-image](https://github.com/nkoepke/profile-image/blob/main/title_image_1.png?raw=true)
 
 # Profile-Image
 This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
