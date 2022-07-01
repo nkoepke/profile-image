@@ -3,7 +3,7 @@
 # Profile-Image
 This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
 
-### class ProfileImage (name, options)
+### class ProfileImage (name, options [optional])
 
 #### name `string`
 
@@ -15,7 +15,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 
 #### options.backgroundColor `string`
 
-* Aets the background color. Any browser supported color value can be used. `default: "#000000"`
+* Aets the background color. Any browser supported color value can be used. `default: "#1f6feb"`
 
 #### options.font `string`
 
@@ -71,7 +71,7 @@ as a string.
 ### PNG
 
 ```js
-var image = new ProfileImage("MM");
+var image = new ProfileImage("Max Miller", {backgroundColor: "#45c421", textColor: "black"});
 image.png();
 ```
 
@@ -86,10 +86,10 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAVAklEQVR4Xu
 The result for
 
 ```javascript
-var image = new ProfileImage("NK", "white", "#1f6feb", "Arial", 40);
+var image = new ProfileImage("Nick Keaton");
 var src = image.png();
 ```
 
-would look like this if used as "src":
+would look like this when used as "src":
 
 ![image](example.png)
