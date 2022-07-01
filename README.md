@@ -3,27 +3,31 @@
 # Profile-Image
 This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
 
-### class ProfileImage (text, textColor, backgroundColor, font, fontSize)
+### class ProfileImage (name, options)
 
-#### text `string`
+#### name `string`
 
 * A string of Characters. We recommend no more than 2 characters for this. `default: "NN"`
 
-#### textColor `string`
+#### options.textColor `string`
 
 * Sets the text color. Any browser supported color value can be used. `default: "#ffffff"`
 
-#### backgroundColor `string`
+#### options.backgroundColor `string`
 
 * Aets the background color. Any browser supported color value can be used. `default: "#000000"`
 
-#### font `string`
+#### options.font `string`
 
 * Sets the font family. `default: "Arial"`
 
-#### fontSize `number`
+#### options.fontSize `number`
 
 * Sets the font size of the text. `default: 40`
+
+#### options.fontWeight `string`
+
+* Sets the font weight of the text. `default: bold`
 
 ### Methods
 
@@ -50,7 +54,7 @@ Include the script in your HTML.
 ### SVG
 
 ```js
-var image = new ProfileImage("MM");
+var image = new ProfileImage("Max Miller");
 image.svg();
 ```
 
@@ -58,7 +62,7 @@ returns
 
 ```xml
 <svg viewBox='0 0 100 100' width='100' height='100' style='background-color:hsl(107,71%,45%)'>
-  <text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='sans-serif' font-size='40' fill='#000000' dominant-baseline='middle' text-anchor='middle'>MM</text>
+  <text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-weight='bold' font-family='sans-serif' font-size='40' fill='#000000' dominant-baseline='middle' text-anchor='middle'>MM</text>
 </svg>
 ```
 
