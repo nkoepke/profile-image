@@ -8,7 +8,7 @@ class ProfileImage {
 		this.fontWeight = options.fontWeight || "normal";
 	}
 	svg() { // returns svg as string
-		return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: ${this.fontWeight};'><rect width='100' height='100' x='0' y='0' fill='${this.backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle'>${this.#shorName()}</text></svg>`;
+		return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: ${this.fontWeight};'><rect width='100' height='100' x='0' y='0' fill='${this.backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.font}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle'>${this.#shortName()}</text></svg>`;
 	}
 	png() { // returns png as base64
 		let canvas = document.createElement("canvas");
@@ -25,9 +25,9 @@ class ProfileImage {
 		return canvas.toDataURL("image/png");
 	}
 	previewInConsole() { // a color preview in the console
-		console.log(`%c ${this.#shorName()} `, `background: ${this.backgroundColor}; color: ${this.textColor}`);
+		console.log(`%c ${this.#shortName()} `, `background: ${this.backgroundColor}; color: ${this.textColor}`);
 	}
-	#shorName() { // internal function, shortens the name zu max. 2 characters
+	#shortName() { // internal function, shortens the name zu max. 2 characters
 		let n_arr = this.name.split(" ");
 		let n_res = "";
 		if(n_arr.length <= 2){
