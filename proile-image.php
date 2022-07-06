@@ -17,7 +17,7 @@ class ProfileImage{
         $this->name = $nameParam;
 		$this->textColor = json_decode($this->options)->{'textColor'};
 		$this->backgroundColor = json_decode($this->options)->{'backgroundColor'};
-		$this->font = json_decode($this->options)->{'fontFamily'};
+		$this->fontFamily = json_decode($this->options)->{'fontFamily'};
 		$this->fontSize = json_decode($this->options)->{'fontSize'};
 		$this->fontWeight = json_decode($this->options)->{'fontWeight'};
     }
