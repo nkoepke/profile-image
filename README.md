@@ -1,4 +1,4 @@
-![profile-image](https://github.com/nkoepke/profile-image/blob/main/title_image_1.png?raw=true)
+![profile-image](https://github.com/nkoepke/profile-image/blob/main/images/title_image_1.png?raw=true)
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![Generic badge](https://img.shields.io/badge/Version-0.0.1-status.svg)](https://shields.io/)
@@ -96,7 +96,7 @@ var src = image.png();
 
 would look like this when used as "src":
 
-![image](example.png)
+![image](images/example.png)
 
 # Alternatives
 
