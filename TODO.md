@@ -1,9 +1,10 @@
 # TODOs
 - [ ] Provide server side solutions
   - [ ] commonJS
-  - [ ] PHP
+  - [X] PHP
   - [ ] node.js
+  - [ ] Ruby
 
 # Roadmap
 ### `v0.0.2`
-- Server side support
+- PHP support
