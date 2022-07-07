@@ -96,7 +96,7 @@ var src = image.png();
 
 would look like this when used as "src":
 
-![image](images/example.png)
+![image](https://github.com/nkoepke/profile-image/blob/main/images/example.png?raw=true)
 
 # Alternatives
 
