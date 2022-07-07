@@ -100,8 +100,18 @@ would look like this when used as "src":
 
 # Alternatives
 
-There is also a PHP class for SVGs. You can also use the **API**:
+There is also a PHP class for SVGs. 
+
+### API
+
+You can also use the **API** for Testing:
 
 ```
-http://api.nilskoepke.com/profile-image?name=<firstname+lastname>&backgroundColor=green<&...>
+http://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87)
 ```
+
+returns
+
+![No image? Open an issue.](http://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87))
+
+Set your custom options as individual URL parameters. For spaces use "+" &#8594; "John+Doe". For color parameters you can use color names like "green", rgb and rgba like "rgb(33,194,87)", hsl, hsla and hex values. Hex color values cannot start with "#". Use "$" instead: "#ffffff" &#8594; "$ffffff"
