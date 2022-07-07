@@ -51,7 +51,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 Include the script in your HTML.
 
 ```html
-<script language="javascript" type="text/javascript" src="/path/to/file/profile-image.js"></script>
+<script language="javascript" type="text/javascript" src="/path/to/file/src/profile-image.js"></script>
 ```
 
 ### SVG
