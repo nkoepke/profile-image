@@ -20,7 +20,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 
 * Aets the background color. Any browser supported color value can be used. `default: "#1f6feb"`
 
-#### options.font `string`
+#### options.fontFamily `string`
 
 * Sets the font family. `default: "Arial"`
 
