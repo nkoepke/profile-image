@@ -1,0 +1,1 @@
+This folder is only for this repo's images. Do not include in your project!
