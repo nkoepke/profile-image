@@ -30,7 +30,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 
 #### options.fontWeight `string`
 
-* Sets the font weight of the text. `default: normal`
+* Sets the font weight of the text. `default: "normal"`
 
 ### Methods
 
