@@ -105,7 +105,7 @@ There is also a PHP class for SVGs.
 
 ### API
 
-You can also use the **API** for Testing:
+You can also use the [API](https://api.nilskoepke.com) for Testing:
 
 ```
 https://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87)
