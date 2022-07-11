@@ -27,7 +27,7 @@ class ProfileImage {
 	previewInConsole() { // a color preview in the console
 		console.log(`%c ${this.#shortName()} `, `background: ${this.backgroundColor}; color: ${this.textColor}`);
 	}
-	#shortName() { // internal function, shortens the name zu max. 2 characters
+	#shortName() { // internal function, shortens the name to max. 2 characters
 		let n_arr = this.name.split(" ");
 		let n_res = "";
 		if(n_arr.length <= 2){
