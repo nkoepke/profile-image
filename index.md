@@ -1,10 +1,11 @@
-![profile-image](https://github.com/nkoepke/profile-image/blob/main/images/title_image_1.png?raw=true)
+![profile-image](https://github.com/nkoepke/profile-image/blob/main/images/title_image_pi.png?raw=true)
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![Generic badge](https://img.shields.io/badge/Version-0.0.2-status.svg)](https://shields.io/)
+[![GitHub Pages](https://img.shields.io/badge/Github%20Pages--gray?logo=github&style=social)](https://nkoepke.github.io/profile-image/)
 
 # Profile-Image
-This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You should use no more than 2 characters as text, but this is up to you. You can use the following parameters in the constructor:
+This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You can use the following parameters in the constructor:
 
 ### class ProfileImage (name, options [optional])
 
@@ -30,7 +31,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 
 #### options.fontWeight `string`
 
-* Sets the font weight of the text. `default: normal`
+* Sets the font weight of the text. `default: "normal"`
 
 ### Methods
 
@@ -104,14 +105,14 @@ There is also a PHP class for SVGs.
 
 ### API
 
-You can also use the **API** for Testing:
+You can also use the [API](https://api.nilskoepke.com) for Testing:
 
 ```
-http://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87)
+https://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87)
 ```
 
 returns
 
-![No image? Open an issue.](http://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87))
+![No image? Open an issue.](https://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87))
 
 Set your custom options as individual URL parameters. For spaces use "+" &#8594; "John+Doe". For color parameters you can use color names like "green", rgb and rgba like "rgb(33,194,87)", hsl, hsla and hex values. Hex color values cannot start with "#". Use "$" instead: "#ffffff" &#8594; "$ffffff"
