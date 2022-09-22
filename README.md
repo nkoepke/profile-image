@@ -1,7 +1,7 @@
 ![profile-image](https://github.com/nkoepke/profile-image/blob/main/images/title_image_pi.png?raw=true)
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
-[![Generic badge](https://img.shields.io/badge/Version-0.0.3-status.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Version-0.0.4-status.svg)](https://shields.io/)
 [![GitHub Pages](https://img.shields.io/badge/Github%20Pages--gray?logo=github&style=social)](https://nkoepke.github.io/profile-image/)
 
 # Profile-Image
