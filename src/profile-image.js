@@ -10,7 +10,7 @@ class ProfileImage {
 	svg() { // returns svg as string
 		return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: ${this.fontWeight};'><rect width='100' height='100' x='0' y='0' fill='${this.backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='${this.fontFamily}' font-size='${this.fontSize}' fill='${this.textColor}' dominant-baseline='middle'>${this.#shortName()}</text></svg>`;
 	}
-	png() { // returns png as base64
+	png() { // returns png as base64 string
 		let canvas = document.createElement("canvas");
 		let context = canvas.getContext("2d");
 		canvas.width = 256;
@@ -26,6 +26,7 @@ class ProfileImage {
 	}
 	previewInConsole() { // a color preview in the console
 		console.log(`%c ${this.#shortName()} `, `background: ${this.backgroundColor}; color: ${this.textColor}`);
+		return this;
 	}
 	#shortName() { // internal function, shortens the name to max. 2 characters
 		let n_arr = this.name.split(" ");
