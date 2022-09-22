@@ -1,4 +1,3 @@
-require 'png'
 class ProfileImage
     attr_accessor :name, :textColor, :backgroundColor, :fontFamily, :fontSize, :fontWeight
     def initialize(name, options = Hash.new)
@@ -10,9 +9,9 @@ class ProfileImage
         @fontWeight = options["fontWeight"] || "normal"
     end
     def svg # returns svg as string
-        return "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: #{@fontWeight};'><rect width='100' height='100' x='0' y='0' fill='#{@backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='#{@fontFamily}' font-size='#{@fontSize}' fill='#{@textColor}' dominant-baseline='middle'>#{self.shortName()}</text></svg>"
+        return "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: #{@fontWeight};'><rect width='100' height='100' x='0' y='0' fill='#{@backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='#{@fontFamily}' font-size='#{@fontSize}' fill='#{@textColor}' dominant-baseline='middle'>#{shortName()}</text></svg>"
     end
-    def shortName # internal function, shortens the name to max. 2 characters
+    def shortName # internal function, shortens the name to first characters. Use no more than 2!
         return @name.split(" ").map{|word| word[0]}.join("")
     end
     private :shortName
