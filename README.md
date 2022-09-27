@@ -7,7 +7,7 @@
 # Profile-Image
 This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You can use the following parameters in the constructor:
 
-### class ProfileImage (name `string`, options [optional] `Object`)
+### class ProfileImage (name `string`, options [optional] `object`)
 
 #### name `string`
 
