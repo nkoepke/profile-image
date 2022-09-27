@@ -1,13 +1,13 @@
 ![profile-image](https://github.com/nkoepke/profile-image/blob/main/images/title_image_pi.png?raw=true)
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
-[![Generic badge](https://img.shields.io/badge/Version-0.0.4-status.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Version-0.0.5-status.svg)](https://shields.io/)
 [![GitHub Pages](https://img.shields.io/badge/Github%20Pages--gray?logo=github&style=social)](https://nkoepke.github.io/profile-image/)
 
 # Profile-Image
 This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You can use the following parameters in the constructor:
 
-### class ProfileImage (name, options [optional])
+### class ProfileImage (name `string`, options [optional] `Object`)
 
 #### name `string`
 
@@ -36,7 +36,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 ### Methods
 
 #### svg()
-`JavaScript` `PHP` `Ruby`
+`JavaScript` `PHP` `Ruby` `NodeJS`
 * Returns a String containing a SVG with the set parameters.
 
 #### png()
@@ -45,7 +45,7 @@ This JavaScript class generates a placeholder image or default profile image as 
 * Returns a String containing a base64 encoded PNG with the set parameters.
 
 #### previewInConsole()
-`JavaScript`
+`JavaScript` `NodeJS`
 
 * Logs a color preview in the console.
 
@@ -103,7 +103,7 @@ would look like this when used as "src":
 
 # Alternatives
 
-There is also a PHP and a Ruby class for SVGs. 
+There is also a PHP and a Ruby class for SVGs as well as a module for NodeJS. 
 
 ### API
 
