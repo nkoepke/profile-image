@@ -2,6 +2,7 @@
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![Generic badge](https://img.shields.io/badge/Version-0.0.5-status.svg)](https://shields.io/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/nkoepke/profile-image/main)](https://GitHub.com/nkoepke/profile-image/commit/)
 [![GitHub Pages](https://img.shields.io/badge/Github%20Pages--gray?logo=github&style=social)](https://nkoepke.github.io/profile-image/)
 
 # Profile-Image
@@ -36,16 +37,16 @@ This JavaScript class generates a placeholder image or default profile image as 
 ### Methods
 
 #### svg()
-`JavaScript` `PHP` `Ruby` `NodeJS`
+![JavaScript](https://img.shields.io/badge/JavaScript-5c5c5c?logo=javascript) ![PHP](https://img.shields.io/badge/PHP-5c5c5c?logo=php) ![Ruby](https://img.shields.io/badge/Ruby-5c5c5c?logo=ruby) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image-5c5c5c?logo=node.js)
 * Returns a String containing a SVG with the set parameters.
 
 #### png()
-`JavaScript`
+![JavaScript](https://img.shields.io/badge/JavaScript-5c5c5c?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image--png-5c5c5c?logo=node.js)
 
 * Returns a String containing a base64 encoded PNG with the set parameters.
 
 #### previewInConsole()
-`JavaScript` `NodeJS`
+![JavaScript](https://img.shields.io/badge/JavaScript-5c5c5c?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-5c5c5c?logo=node.js)
 
 * Logs a color preview in the console.
 
@@ -103,7 +104,7 @@ would look like this when used as "src":
 
 # Alternatives
 
-There is also a PHP and a Ruby class for SVGs as well as a module for NodeJS. 
+There is also a PHP and a Ruby class for SVGs as well as modules for NodeJS. The module "profile-image" is without the png method. "profile-image-png" contains the png method but requires [node-canvas](https://www.npmjs.com/package/canvas).
 
 ### API
 
