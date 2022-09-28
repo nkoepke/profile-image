@@ -37,16 +37,16 @@ This JavaScript class generates a placeholder image or default profile image as 
 ### Methods
 
 #### svg()
-`JavaScript` `PHP` `Ruby` `NodeJS`
+![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript) ![PHP](https://img.shields.io/badge/PHP-000?logo=php) ![Ruby](https://img.shields.io/badge/Ruby-000?logo=ruby) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image-000?logo=node.js)
 * Returns a String containing a SVG with the set parameters.
 
 #### png()
-`JavaScript`
+![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image--png-000?logo=node.js)
 
 * Returns a String containing a base64 encoded PNG with the set parameters.
 
 #### previewInConsole()
-`JavaScript` `NodeJS`
+![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-000?logo=node.js)
 
 * Logs a color preview in the console.
 
