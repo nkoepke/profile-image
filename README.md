@@ -37,16 +37,16 @@ This JavaScript class generates a placeholder image or default profile image as 
 ### Methods
 
 #### svg()
-![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript) ![PHP](https://img.shields.io/badge/PHP-000?logo=php) ![Ruby](https://img.shields.io/badge/Ruby-000?logo=ruby) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image-000?logo=node.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-5c5c5c?logo=javascript) ![PHP](https://img.shields.io/badge/PHP-5c5c5c?logo=php) ![Ruby](https://img.shields.io/badge/Ruby-5c5c5c?logo=ruby) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image-5c5c5c?logo=node.js)
 * Returns a String containing a SVG with the set parameters.
 
 #### png()
-![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image--png-000?logo=node.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-5c5c5c?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-profile--image--png-5c5c5c?logo=node.js)
 
 * Returns a String containing a base64 encoded PNG with the set parameters.
 
 #### previewInConsole()
-![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-000?logo=node.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-5c5c5c?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-5c5c5c?logo=node.js)
 
 * Logs a color preview in the console.
 
