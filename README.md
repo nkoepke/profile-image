@@ -2,6 +2,7 @@
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![Generic badge](https://img.shields.io/badge/Version-0.0.5-status.svg)](https://shields.io/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/nkoepke/profile-image/main)](https://GitHub.com/nkoepke/profile-image/commit/)
 [![GitHub Pages](https://img.shields.io/badge/Github%20Pages--gray?logo=github&style=social)](https://nkoepke.github.io/profile-image/)
 
 # Profile-Image
