@@ -103,7 +103,7 @@ would look like this when used as "src":
 
 # Alternatives
 
-There is also a PHP and a Ruby class for SVGs as well as a module for NodeJS. 
+There is also a PHP and a Ruby class for SVGs as well as modules for NodeJS. The module "profile-image" is without the png method. "profile-image-png" contains the png method but requires [node-canvas](https://www.npmjs.com/package/canvas).
 
 ### API
 
