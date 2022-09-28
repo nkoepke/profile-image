@@ -4,6 +4,8 @@
   - [X] PHP
   - [X] node.js
   - [X] Ruby
+  - [ ] Pyhon
+  - [ ] Java
 - [ ] Provide randimised icons as an option (like random animals or objects instead of Text)
 
 # Roadmap
@@ -16,5 +18,5 @@
 ### `v0.0.5`
 - commonJS support
 - --PNGs from PHP and Ruby classes--
-### `v0.0.6`
+### `v0.0.x`
 - Python support
