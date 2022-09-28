@@ -16,3 +16,5 @@
 ### `v0.0.5`
 - commonJS support
 - --PNGs from PHP and Ruby classes--
+### `v0.0.6`
+- Python support
