@@ -20,3 +20,4 @@
 - --PNGs from PHP and Ruby classes--
 ### `v0.0.x`
 - Python support
+- Ruby Version -> "nameToShort" needs "to uppercase"
