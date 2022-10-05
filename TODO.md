@@ -8,7 +8,7 @@
   - [ ] Java
 - [ ] Provide randimised icons as an option (like random animals or objects instead of Text)
 
-# Roadmap
+# Roadmap and Changelog
 ### `v0.0.2`
 - PHP support
 ### `v0.0.3`
