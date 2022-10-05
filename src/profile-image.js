@@ -31,6 +31,10 @@ class ProfileImage {
 		console.log(`%c ${this.#shortName()} `, `background: ${this.backgroundColor}; color: ${this.textColor}`);
 		return this;
 	}
+	listAttributesInConsole() { // list all object attributes as a table in the console
+		console.table(this);
+		return this;
+	}
 	#shortName() { // internal function, shortens the name to max. 2 characters
 		let n_arr = this.name.split(" ");
 		let n_res = "";
