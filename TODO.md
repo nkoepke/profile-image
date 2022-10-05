@@ -21,3 +21,4 @@
 ### `v0.0.x`
 - Python support
 - Ruby Version -> "nameToShort" needs "to uppercase"
+- list all object attributes as a table in the console as method
