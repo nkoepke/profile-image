@@ -52,6 +52,12 @@ class `ProfileImage` (name `string`, options [optional] `object`)
 
 * Logs a color preview in the console.
 
+#### listAttributesInConsole()
+![JavaScript](https://img.shields.io/badge/JavaScript-5c5c5c?logo=javascript) ![NodeJS](https://img.shields.io/badge/NodeJS-5c5c5c?logo=node.js)
+
+* List all object attributes as a table in the console.
+* NodeJS: Version 10.0.0 or higher required.
+
 # Usage
 
 Include the script in your HTML.
