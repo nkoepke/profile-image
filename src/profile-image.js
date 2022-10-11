@@ -47,3 +47,6 @@ class ProfileImage {
 		return n_res;		
 	}
 }
+
+// Exporting the class ProfileImage to be used in other files as a commonjs module
+module.exports = ProfileImage;
