@@ -119,11 +119,11 @@ There is also a PHP and a Ruby class for SVGs as well as modules for NodeJS. The
 You can also use the [API](https://api.nilskoepke.com) for Testing:
 
 ```
-https://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87)
+https://api.nilskoepke.com/profile-image/v1?name=John+Doe&backgroundColor=rgb(33,194,87)
 ```
 
 returns
 
-![No image? Open an issue.](https://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87))
+![No image? Open an issue.](https://api.nilskoepke.com/profile-image/v1?name=John+Doe&backgroundColor=rgb(33,194,87))
 
 Set your custom options as individual URL parameters. For spaces use "+" &#8594; "John+Doe". For color parameters you can use color names like "green", rgb and rgba like "rgb(33,194,87)", hsl, hsla and hex values. Hex color values cannot start with "#". Use "$" instead: "#ffffff" &#8594; "$ffffff"
