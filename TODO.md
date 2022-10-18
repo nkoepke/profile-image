@@ -22,3 +22,4 @@
 - Python support
 - Ruby Version -> "nameToShort" needs "to uppercase"
 - list all object attributes as a table in the console as method
+- SVG text position adjusted to vertically center the text
