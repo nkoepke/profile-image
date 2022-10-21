@@ -22,7 +22,7 @@ class ProfileImage{
 		$this->fontWeight = json_decode($this->options)->{'fontWeight'};
     }
     public function svg(){
-        return "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: {$this->fontWeight};'><rect width='100' height='100' x='0' y='0' fill='{$this->backgroundColor}'></rect><text x='50%' y='53%' alignment-baseline='central' text-anchor='middle' font-family='{$this->fontFamily}' font-size='{$this->fontSize}' fill='{$this->textColor}' dominant-baseline='middle'>" . $this->shortName($this->name) . "</text></svg>";
+        return "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' width='100' height='100' style='font-weight: {$this->fontWeight};'><rect width='100' height='100' x='0' y='0' fill='{$this->backgroundColor}'></rect><text x='50%' y='50%' alignment-baseline='central' text-anchor='middle' font-family='{$this->fontFamily}' font-size='{$this->fontSize}' fill='{$this->textColor}' dominant-baseline='middle'>" . $this->shortName($this->name) . "</text></svg>";
     }
     private function shortName(){
         $n_arr = explode(" ", $this->name);
