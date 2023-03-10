@@ -6,7 +6,9 @@
 [![GitHub Pages](https://img.shields.io/badge/Github%20Pages--gray?logo=github&style=social)](https://nkoepke.github.io/profile-image/)
 
 # Profile-Image
-This JavaScript class generates a placeholder image or default profile image as SVG or PNG. You can use the following parameters in the constructor:
+This JavaScript class generates a placeholder image or default profile image as SVG or PNG. Please also have a look at [Identicons](https://github.com/nkoepke/Identicon) for more profile image generation.
+
+You can use the following parameters in the constructor:
 
 ### ProfileImage class
 
