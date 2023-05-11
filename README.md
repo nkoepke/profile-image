@@ -129,3 +129,7 @@ returns
 ![No image? Open an issue.](https://api.nilskoepke.com/profile-image?name=John+Doe&backgroundColor=rgb(33,194,87))
 
 Set your custom options as individual URL parameters. For spaces use "+" &#8594; "John+Doe". For color parameters you can use color names like "green", rgb and rgba like "rgb(33,194,87)", hsl, hsla and hex values. Hex color values cannot start with "#". Use "$" instead: "#ffffff" &#8594; "$ffffff"
+
+# Coming Soon
+
+Integration of [nkoepke/Identicon](https://github.com/nkoepke/Identicon) into nkoepke/profile-image as well as more profile image variations!
