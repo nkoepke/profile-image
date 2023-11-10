@@ -62,7 +62,7 @@ class `ProfileImage` (name `string`, options [optional] `object`)
 
 # Usage
 
-Include the script in your HTML.
+Include the script in your HTML. The script also works with Node ("module.exports" must be activated in the code file manually). Some additional methods can be used only in browser enviroments.
 
 ```html
 <script language="javascript" type="text/javascript" src="/path/to/file/src/profile-image.js"></script>
